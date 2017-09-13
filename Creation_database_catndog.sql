@@ -11,3 +11,7 @@ CREATE TABLE pets (
 
 INSERT INTO pets (label) VALUES ('Cat'), ('Dog');
 
+
+
+
+
