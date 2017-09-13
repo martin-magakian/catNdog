@@ -8,8 +8,19 @@ As requirement, you need PHP and Composer install on your machine.
 ```
 git clone https://github.com/martin-magakian/catNdog
 composer install
-php bin/console server:run
+docker run -it -p 80:80 -p 3306:3306 -v /path/to/catNdog/sources:/var/www/catNdog martinmagakian/catndog
 ```
+
+
+
+I want to change to Docker image
+=========================
+
+```
+docker build -t martinmagakian/catndog .
+docker push martinmagakian/catndog #OPTIONAL: publish on hub.docker.com
+```
+
 
 
 How did we build this projet ?
