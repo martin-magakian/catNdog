@@ -34,3 +34,11 @@ Step Installation Jenkins sur serveur de test :
   
   Recopier ce MDP dans le navigateur.
   
+  
+  Step Installation des plugins (ici choix des plugins proposés) 
+  
+  
+  Step Création utilisateur Admin
+  
+  Ici utilisateur : admin et MDP : admin
+  
