@@ -8,7 +8,7 @@ As requirement, you need PHP and Composer install on your machine.
 ```
 git clone https://github.com/martin-magakian/catNdog
 composer install
-docker run -it -p 80:80 -p 3306:3306 -v /path/to/catNdog/sources:/var/www/catNdog martinmagakian/catndog
+docker run -it -p 80:80 -p 3306:3306 -e MYSQL_PASS="admin" -v /path/to/catNdog/sources:/var/www/catNdog martinmagakian/catndog
 ```
 
 
@@ -35,8 +35,20 @@ Step 1 : Install Symfony
 
 https://symfony.com/doc/current/setup.html
 
-Step fichier de création du fichier des commandes pour la création de la base de donnée DB_CATNDOG.
 
-** Pour ce connecter sur la bd avec un mdp spécifique : 
 
-	docker run -it -p 80:80 -p 3306:3306 -e MYSQL_PASS="admin" tutum/lamp
+
+How did we structure the database ?
+================================
+
+Name = DB_CATNDOG
+
+Table = pets
+
+The table have 4 column :
+
+id (int) ; label (varchar(50)) ; nb_vote (int) 
+
+The column nb_vote is set to 0.
+
+
