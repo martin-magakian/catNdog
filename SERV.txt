@@ -1,0 +1,8 @@
+2 serveurs avec Docker ont été créés :
+
+	1 - Serveur de tests (jenkins) :
+		ip = 165.227.153.56
+		
+	2 - Serveur de Prod (prod) :
+		ip = 165.227.153.55
+
