@@ -1,3 +1,8 @@
+--- Projet catNdog ---
+
+Pour les infos des serveurs, vous pouvez consulter le fichier SERV.txt
+
+
 Step 1 : Install Symfony
 
 https://symfony.com/doc/current/setup.html
