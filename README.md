@@ -47,7 +47,7 @@ Name = DB_CATNDOG
 Table = pets
 ```
 
-The table have 4 column :
+The table have 4 columns :
 
 ```
 id (int) ; label (varchar(50)) ; nb_vote (int) 
