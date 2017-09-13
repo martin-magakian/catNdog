@@ -1,4 +1,4 @@
---- Projet catNdog ---
+﻿--- Projet catNdog ---
 
 Pour les infos des serveurs, vous pouvez consulter le fichier SERV.txt
 
@@ -33,4 +33,10 @@ Step Installation Jenkins sur serveur de test :
   Récupérer le mot de passe ici : /var/lib/jenkins/secrets/initialAdminPassword
   
   Recopier ce MDP dans le navigateur.
+  
+Step fichier de création du fichier des commandes pour la création de la base de donnée DB_CATNDOG.
+
+** Pour ce connecter sur la bd avec un mdp spécifique : 
+
+	docker run -d -p 80:80 -p 3306:3306 -e MYSQL_PASS="mypass" tutum/lamp
   
