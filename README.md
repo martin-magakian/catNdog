@@ -26,3 +26,11 @@ Step Installation Jenkins sur serveur de test :
   apt-get update
   apt-get install jenkins
 
+  Débloquer Jenkins :
+  
+  Dans un navigateur, taper l'url (ou l'IP) du serveur de test sur le port 8080, ici http://165.227.153.56:8080/.
+  
+  Récupérer le mot de passe ici : /var/lib/jenkins/secrets/initialAdminPassword
+  
+  Recopier ce MDP dans le navigateur.
+  
