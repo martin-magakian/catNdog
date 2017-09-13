@@ -1,4 +1,19 @@
-﻿--- Projet catNdog ---
+﻿
+
+Start Projet
+==============
+
+As requirement, you need PHP and Composer install on your machine.
+
+```
+git clone https://github.com/martin-magakian/catNdog
+composer install
+php bin/console server:run
+```
+
+
+How did we build this projet ?
+================================
 
 Pour les infos des serveurs, vous pouvez consulter le fichier SERV.txt
 
