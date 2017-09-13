@@ -41,13 +41,17 @@ https://symfony.com/doc/current/setup.html
 How did we structure the database ?
 ================================
 
+'''
 Name = DB_CATNDOG
 
 Table = pets
+'''
 
 The table have 4 column :
 
+'''
 id (int) ; label (varchar(50)) ; nb_vote (int) 
+'''
 
 The column nb_vote is set to 0.
 
