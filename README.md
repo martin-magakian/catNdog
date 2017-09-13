@@ -8,8 +8,12 @@ As requirement, you need PHP and Composer install on your machine.
 ```
 git clone https://github.com/martin-magakian/catNdog
 composer install
-php bin/console server:run
+# (OPTIONAL: run localy) php bin/console server:run
+# (OPTIONAL: build your own image) docker build -t martinmagakian/catndog .
+docker run -it -p 80:80 -p 3306:3306 -v /c/Users/HB1/catNdog/project:/var/www/catNdog martinmagakian/catndog
 ```
+
+
 
 
 How did we build this projet ?
