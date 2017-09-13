@@ -34,9 +34,19 @@ Step Installation Jenkins sur serveur de test :
   
   Recopier ce MDP dans le navigateur.
   
+<<<<<<< HEAD
 Step fichier de création du fichier des commandes pour la création de la base de donnée DB_CATNDOG.
 
 ** Pour ce connecter sur la bd avec un mdp spécifique : 
 
 	docker run -d -p 80:80 -p 3306:3306 -e MYSQL_PASS="mypass" tutum/lamp
+=======
+  
+  Step Installation des plugins (ici choix des plugins proposés) 
+  
+  
+  Step Création utilisateur Admin
+  
+  Ici utilisateur : admin et MDP : admin
+>>>>>>> cf7dc5b6d8dfad232165ee6bf7d320a0c037fa9f
   
