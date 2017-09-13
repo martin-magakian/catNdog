@@ -39,4 +39,4 @@ Step fichier de création du fichier des commandes pour la création de la base 
 
 ** Pour ce connecter sur la bd avec un mdp spécifique : 
 
-	docker run -d -p 80:80 -p 3306:3306 -e MYSQL_PASS="mypass" tutum/lamp
+	docker run -it -p 80:80 -p 3306:3306 -e MYSQL_PASS="admin" tutum/lamp
