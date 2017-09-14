@@ -25,14 +25,15 @@ Sur les 2 serveurs, on installe :
 Installation de "unzip" :
 	apt install unzip
 	
+Installation de "php-xml" :
+	apt install php7.0-xml
+	
 Installation de "composer" :
 	apt install composer
 	
 Installation de "php" et "symfony" (contient php7.0) :
 	apt install symfony*
-	
-Installation de "php-xml" :
-	apt install php7.0-xml
+
 	
 2 - Serveur de Prod (prod) :
 Pas d'installation de packages, mais préparation des répertoires application à "binder".
