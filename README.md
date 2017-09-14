@@ -26,7 +26,7 @@ docker push martinmagakian/catndog #OPTIONAL: publish on hub.docker.com
 How did we build this projet ?
 ================================
 
-Pour les infos des serveurs, vous pouvez consulter le fichier SERV.txt
+Pour les infos des serveurs, vous pouvez consulter le fichier server-readme.txt
 
 Pour Jenkins c'est là : jenkins-readme.txt
 
